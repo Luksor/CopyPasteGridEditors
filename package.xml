@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<umbPackage>
+  <files>
+    <file>
+      <guid>copypastegrid.html</guid>
+      <orgPath>/App_Plugins/CopyPasteGridEditors</orgPath>
+      <orgName>copypastegrid.html</orgName>
+    </file>
+    <file>
+      <guid>copypastegrideditors.css</guid>
+      <orgPath>/App_Plugins/CopyPasteGridEditors</orgPath>
+      <orgName>copypastegrideditors.css</orgName>
+    </file>
+    <file>
+      <guid>copypastegrideditors.js</guid>
+      <orgPath>/App_Plugins/CopyPasteGridEditors</orgPath>
+      <orgName>copypastegrideditors.js</orgName>
+    </file>
+    <file>
+      <guid>package.manifest</guid>
+      <orgPath>/App_Plugins/CopyPasteGridEditors</orgPath>
+      <orgName>package.manifest</orgName>
+    </file>
+    <file>
+      <guid>da-DK.xml</guid>
+      <orgPath>/App_Plugins/CopyPasteGridEditors/Lang</orgPath>
+      <orgName>da-DK.xml</orgName>
+    </file>
+    <file>
+      <guid>en-GB.xml</guid>
+      <orgPath>/App_Plugins/CopyPasteGridEditors/Lang</orgPath>
+      <orgName>en-GB.xml</orgName>
+    </file>
+    <file>
+      <guid>en-US.xml</guid>
+      <orgPath>/App_Plugins/CopyPasteGridEditors/Lang</orgPath>
+      <orgName>en-US.xml</orgName>
+    </file>
+    <file>
+      <guid>pl-PL.xml</guid>
+      <orgPath>/App_Plugins/CopyPasteGridEditors/Lang</orgPath>
+      <orgName>pl-PL.xml</orgName>
+    </file>
+  </files>
+  <info>
+    <package>
+      <name>Copy Paste Grid Editors (7.11+)</name>
+      <version>1.0.2</version>
+      <iconUrl />
+      <license url="http://opensource.org/licenses/MIT">MIT License</license>
+      <url>http://luksor.me</url>
+      <requirements type="strict">
+        <major>7</major>
+        <minor>11</minor>
+        <patch>0</patch>
+      </requirements>
+    </package>
+    <author>
+      <name>Lukasz Kaleta</name>
+      <website>http://luksor.me</website>
+    </author>
+    <readme><![CDATA[Original package created by Søren Kottal (http://skttl.dk).
+ 
+This is a fixed version that works with Umbraco 7.11+
+ 
+Link to the original package: https://our.umbraco.com/packages/backoffice-extensions/copy-paste-grid-editors/
+
+This package adds copy/paste functionality to the grid editor.
+ 
+It works by hijacking the loading of the grid editor, and replaces it with a new one including the copy/paste functionality.
+ 
+When you copy a grid element, the element is saved in the browsers local storage. You can then paste it wherever the grid element is allowed.
+ 
+The package saves the last 10 copies, so you can have more elements copied.
+ 
+This package is also made as a pull request for Umbraco, so hopefully one day, it will be obsolete :)
+ 
+Thanks to Lars Erik Aabech for the initial pull request!]]></readme>
+  </info>
+  <DocumentTypes />
+  <Templates />
+  <Stylesheets />
+  <Macros />
+  <DictionaryItems />
+  <Languages />
+  <DataTypes />
+</umbPackage>

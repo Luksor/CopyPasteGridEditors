@@ -1,0 +1,4 @@
+﻿{
+	"javascript": [ "~/App_Plugins/CopyPasteGridEditors/copypastegrideditors.js" ],
+	"css": ["~/App_Plugins/CopyPasteGridEditors/copypastegridEditors.css" ]
+}

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<language alias="pl" intName="Polish" localName="polski" lcid="21" culture="pl-PL">
+	<area alias="copyPasteGridEditors">
+		<key alias="paste">Wklej element</key>
+	</area>
+</language>
